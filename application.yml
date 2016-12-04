@@ -6,3 +6,14 @@ eureka:
     fetchRegistry: true
     serviceUrl:
       defaultZone: http://sc-server-discovery:8200/eureka/
+
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 10000
+spring:
+  rabbitmq:
+    host: rabbitmq
