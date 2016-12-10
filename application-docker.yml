@@ -16,4 +16,4 @@ hystrix:
             timeoutInMilliseconds: 10000
 spring:
   rabbitmq:
-    host: rabbitmq
+    host: sc-rabbitmq
