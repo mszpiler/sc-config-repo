@@ -8,6 +8,9 @@ eureka:
       defaultZone: http://sc-server-discovery:8200/eureka/
 
 hystrix:
+  threadpool:
+    default:
+      maxQueueSize: 50
   command:
     default:
       execution:
