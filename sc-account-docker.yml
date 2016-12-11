@@ -2,4 +2,4 @@ server:
   port: 8801
 
 account:
-  greeting: bye
+  greeting: hello
