@@ -10,6 +10,9 @@ eureka:
 hystrix:
   command:
     default:
+      metrix:
+        rollingPercentile:
+          numBuckets: 60
       execution:
         isolation:
           thread:

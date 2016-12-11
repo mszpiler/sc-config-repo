@@ -12,7 +12,7 @@ zuul:
     socket-timeout-millis: 20000
   routes:
     sc-account:
-        path: /accounts/**
+        path: /account/**
         serviceId: sc-account
-        stripPrefix: false
+        stripPrefix: true
         sensitiveHeaders:
