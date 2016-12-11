@@ -1,2 +1,8 @@
 server:
   port: 8801
+
+server:
+  port: 8801
+
+account:
+  greeting: Yooowww
